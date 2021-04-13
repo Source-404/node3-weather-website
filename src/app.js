@@ -32,7 +32,7 @@ app.get("/about", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Get help!!",
-    mssg: "If u need help .... dont hesitate call us immediately",
+    mssg: "If u need help .... dont hesitate call immediately",
     name: "Source",
   });
 });
